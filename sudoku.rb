@@ -4,9 +4,7 @@ def sudoku(board)
   n = [*1..9]
   board = Matrix.rows(board)
 
-  first = (0..2)
-  middle = (3..5)
-  last = (6..8)
+  first, middle, last = (0..2), (3..5), (6..8)
 
   combo = [first, middle, last]
 
